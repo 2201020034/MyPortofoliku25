@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #800000; /* Maroon */
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #ffd700; /* Gold saat hover */
+}
+
+
+/* Hero Section */
+.hero {
+  background-color: #fff;
+  padding: 3rem 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  background-color: #800000; /* Kotak warna maroon */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.hero-image img {
+  width: 240px;
+  border-radius: 8px;
+  display: block;
+}
+
+
+.hero-text {
+  max-width: 600px;
+  margin-left: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #800000; /* Maroon */
+}
+
+.hero-text p {
+  color: #555;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  background-color: #800000; /* Maroon */
+  color: #fff;
+  padding: 0.75rem 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a52a2a; /* Maroon terang saat hover */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #800000;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+.skill-box {
+  background: #eef0ed; /* Warna latar soft */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+.skill-box h4 {
+  margin: 0;
+  color: maroon;
+  font-weight: bold;
+}
+.skill-box p {
+  margin-top: 6px;
+  color: #555;
+  font-size: 14px;
+}
+
